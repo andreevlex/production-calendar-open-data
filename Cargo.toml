@@ -1,5 +1,5 @@
 [package]
-name = "production-calendar-open-data"
+name = "production_calendar_open_data"
 version = "0.1.0"
 authors = ["Andreev Alexander <andreevlex.as@gmail.com>"]
 
@@ -7,3 +7,6 @@ authors = ["Andreev Alexander <andreevlex.as@gmail.com>"]
 csv = "1.0.0-beta.5"
 serde = "1"
 serde_derive = "1"
+
+[[example]]
+name = "read-file"
